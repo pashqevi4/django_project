@@ -1,0 +1,69 @@
+Watching for file changes with StatReloader
+C:\Users\pashq\PycharmProjects\Django_Projects\my_project\awesome_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\pashq\PycharmProjects\Django_Projects\my_project\awesome_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2170
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2221
+Not Found: /
+"GET / HTTP/1.1" 404 2170
+"GET /prefix HTTP/1.1" 301 0
+"GET /prefix/ HTTP/1.1" 200 13
+"GET /prefix/about/ HTTP/1.1" 200 27
+"GET /prefix/about/ HTTP/1.1" 200 27
+"GET /prefix/ HTTP/1.1" 200 13
+C:\Users\pashq\PycharmProjects\Django_Projects\my_project\my_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /prefix/ HTTP/1.1" 200 13
+"GET /prefix/about/ HTTP/1.1" 200 27
+C:\Users\pashq\PycharmProjects\Django_Projects\my_project\my_project\settings.py changed, reloading.
+INFO 2024-05-15 23:07:19,571 autoreload 4284 7948 Watching for file changes with StatReloader
+INFO 2024-05-15 23:07:24,292 basehttp 4284 8064 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2024-05-15 23:07:28,088 basehttp 4284 8064 "GET /prefix/ HTTP/1.1" 200 13
+INFO 2024-06-05 22:55:01,126 autoreload 13232 19404 Watching for file changes with StatReloader
+INFO 2024-06-05 22:55:03,547 basehttp 13232 16248 "GET / HTTP/1.1" 200 13
+WARNING 2024-06-05 22:55:03,972 log 13232 16248 Not Found: /favicon.ico
+WARNING 2024-06-05 22:55:03,974 basehttp 13232 16248 "GET /favicon.ico HTTP/1.1" 404 2552
+WARNING 2024-06-05 22:55:12,368 log 13232 16084 Not Found: /homework/
+WARNING 2024-06-05 22:55:12,368 basehttp 13232 16084 "GET /homework/ HTTP/1.1" 404 2546
+INFO 2024-06-05 22:55:54,981 basehttp 13232 16084 "GET /homework1 HTTP/1.1" 301 0
+INFO 2024-06-05 22:55:54,985 basehttp 13232 1084 "GET /homework1/ HTTP/1.1" 200 154
+INFO 2024-06-05 22:56:24,648 autoreload 13232 19404 C:\Users\pashq\PycharmProjects\Django_Projects\my_project\homework1_app\views.py changed, reloading.
+INFO 2024-06-05 22:56:25,342 autoreload 17524 11056 Watching for file changes with StatReloader
+INFO 2024-06-05 22:56:27,878 basehttp 17524 17832 "GET /homework1/ HTTP/1.1" 200 160
+INFO 2024-06-05 22:56:38,861 autoreload 17524 11056 C:\Users\pashq\PycharmProjects\Django_Projects\my_project\homework1_app\views.py changed, reloading.
+INFO 2024-06-05 22:56:39,536 autoreload 16640 9552 Watching for file changes with StatReloader
+INFO 2024-06-05 22:56:41,601 basehttp 16640 9428 "GET /homework1/ HTTP/1.1" 200 157
+INFO 2024-06-05 22:57:14,037 autoreload 16640 9552 C:\Users\pashq\PycharmProjects\Django_Projects\my_project\homework1_app\views.py changed, reloading.
+INFO 2024-06-05 22:57:14,715 autoreload 13624 4816 Watching for file changes with StatReloader
+INFO 2024-06-05 22:57:16,682 basehttp 13624 15284 "GET /homework1/ HTTP/1.1" 200 154
+WARNING 2024-06-05 22:57:24,469 log 13624 15284 Not Found: /homework1/about
+WARNING 2024-06-05 22:57:24,470 basehttp 13624 15284 "GET /homework1/about HTTP/1.1" 404 2805
+INFO 2024-06-05 22:57:40,759 autoreload 13624 4816 C:\Users\pashq\PycharmProjects\Django_Projects\my_project\homework1_app\urls.py changed, reloading.
+INFO 2024-06-05 22:57:41,421 autoreload 17060 1388 Watching for file changes with StatReloader
+INFO 2024-06-05 22:57:43,381 basehttp 17060 13320 "GET /homework1/about HTTP/1.1" 301 0
+ERROR 2024-06-05 22:57:43,451 log 17060 7328 Internal Server Error: /homework1/about/
+Traceback (most recent call last):
+  File "C:\Users\pashq\PycharmProjects\Django_Projects\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pashq\PycharmProjects\Django_Projects\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\pashq\PycharmProjects\Django_Projects\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view homework1_app.views.get_about didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-06-05 22:57:43,452 basehttp 17060 7328 "GET /homework1/about/ HTTP/1.1" 500 66617
+INFO 2024-06-05 22:58:08,564 autoreload 17060 1388 C:\Users\pashq\PycharmProjects\Django_Projects\my_project\homework1_app\views.py changed, reloading.
+INFO 2024-06-05 22:58:09,232 autoreload 12192 10900 Watching for file changes with StatReloader
+INFO 2024-06-05 22:58:11,076 basehttp 12192 12524 "GET /homework1/about/ HTTP/1.1" 200 220
+INFO 2024-06-05 22:58:30,037 autoreload 12192 10900 C:\Users\pashq\PycharmProjects\Django_Projects\my_project\homework1_app\views.py changed, reloading.
+INFO 2024-06-05 22:58:30,684 autoreload 11916 18620 Watching for file changes with StatReloader
+INFO 2024-06-05 22:58:32,809 basehttp 11916 12692 "GET /homework1/about/ HTTP/1.1" 200 223
+INFO 2024-06-05 22:58:34,518 basehttp 11916 12692 "GET /homework1/about/ HTTP/1.1" 200 223
+INFO 2024-06-05 22:58:59,852 autoreload 11916 18620 C:\Users\pashq\PycharmProjects\Django_Projects\my_project\homework1_app\views.py changed, reloading.
+INFO 2024-06-05 22:59:00,509 autoreload 3112 15008 Watching for file changes with StatReloader
+INFO 2024-06-05 22:59:04,001 basehttp 3112 11104 "GET /homework1/about/ HTTP/1.1" 200 220
+INFO 2024-06-05 22:59:18,279 autoreload 3112 15008 C:\Users\pashq\PycharmProjects\Django_Projects\my_project\homework1_app\views.py changed, reloading.
+INFO 2024-06-05 22:59:18,924 autoreload 18280 13256 Watching for file changes with StatReloader
